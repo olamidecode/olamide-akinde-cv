@@ -1,5 +1,5 @@
-body {
-  font-size: 28px;
+* {
+  font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -7,10 +7,10 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
+  background-color: whitesmoke;
+  position: fixed;
   top: 0;
+  width: 100%;
 }
 
 li {
@@ -19,16 +19,30 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 23px;
 }
 
-li a:hover {
-  background-color: #111;
+li a:hover:not(.active) {
+  background-color:rgb(126, 126, 192);
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: rgb(53, 68, 112);
+}
+.top-bar{
+  
+  background-color:#1abc9c;
+    margin: 79px auto 0px;
+    display: block;
+    max-width: 700px;
+    padding: 15px;
+    text-align: center;
+}
+  
+.duration{
+  position: relative;
 }
