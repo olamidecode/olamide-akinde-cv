@@ -7,7 +7,7 @@ ul {
      margin: 0;
      padding: 0;
      overflow: hidden;
-     background-color: #2C666E;
+     background-color: #2666EC;
      position: fixed;
      top: 0;
      width: 100%;
@@ -160,15 +160,16 @@ a{
   font-size: 28px;
 }
 .about{
-  background-color: #007EA7;
+  background-color: #2666EC;
+  
   
 }
 .skills{
-  background-color: #007EA7;
+  background-color: #2666EC;
 }
 .row{
-  background-color: #007EA7;
+  background-color: #2666EC;
 }
 .id{
-  background-color: #007EA7;
+  background-color: #2666EC;
 }
