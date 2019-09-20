@@ -1,74 +1,67 @@
 * {
   font-family: 'Lato', sans-serif;
-
-  }
-/* styling for my nav-bar */
-ul {
-     list-style-type: none;
-     margin: 0;
-     padding: 0;
-     overflow: hidden;
-     background-color: #2666EC;
-     position: fixed;
-     top: 0;
-     width: 100%;
-}
-
-li{
-   float: left;
-}
-
-li a {
-  display: block;
+  scroll-behavior: smooth;
+   }
+   /* applying gradient to the body */
+  body{
+    
+   }
+.card{
   color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 28px;
-}
-
-li a:hover:not(.active) {
-  background-color:rgb(126, 126, 192);
-}
-
-.active {
-  background-color: rgb(53, 68, 112);
+  margin-top: 118px;
+  margin-left: 85px;
+  margin-right: 85px;
+  margin-bottom: -78px;
+  box-shadow: 0px 2px 15px #252525;
+    border: 0;
 }
 /* introduction section */
 .top-bar{
   
-  background-color:#ddd;
+  background-color:white;
     margin: 79px auto 0px;
     display: block;
     max-width: 700px;
-    padding: 15px;
     text-align: center;
+    color: black;
+    padding-top: 60px;
+    margin-top: 300px;
+    position: absolute;
+    z-index: 6;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 2px 15px #252525;
+    border: 0;
     }
   /* put my .top-bar into a section so i could add a background image to it */
 #header{
-      background-image: url(../img/Nature.jpg)  ;
-      padding-bottom: 10%;
+      background-image: url(../img/background.jpg)  ;
+      padding-bottom: 25%;
       background-repeat:no-repeat;
       background-size: cover;
-      padding-top: 18px;
-      margin-top: 5%;
-      
+      max-height: 130vh;
+      position: relative;
+      box-shadow: 0px 2px 15px #252525;
+      border: 0;
     }
+/* styling the image */
+.fading{
+  margin-left: 45px;
+    margin-right: 45px;
+}
     
-/* 
-    .duration{
-  position: relative;
-  float: none;
-  font-size: 21px;
-} */
+/* styling of image */
+.coding{
+  width: 300px;
+}
 
 h3{
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   font-style: oblique;
 }
 p{
-  font-size: 27px;
+  font-size: 20px;
 }
 h2{
   text-align: center;
@@ -81,12 +74,12 @@ dd{
   font-size: 21px;
 }
 h1{
-  font-size: 40px;
+  font-size: 35px;
   font-style: oblique;
 }
 
 section{
-  margin-top: 5%;
+  
   
   
 }
@@ -150,7 +143,7 @@ body {
 
 #back_top {
   width: 100%;
-  background-color: #2C666E;
+  /* background-color: #3333; */
   text-align: center;
   height: 90px;
   padding-top: 20px;
@@ -158,21 +151,287 @@ body {
   padding-bottom: 100px;
   
 }
-a{
-  color: #ddd;
-  font-size: 28px;
-}
+
 .about{
-  background-color: #2666EC;
+  background-color:white;
   
   
 }
 .skills{
-  background-color: #2666EC;
+  background-color: #333333;
 }
-.row{
-  background-color: #2666EC;
-}
+
 .schooling{
-  background-color: #2666EC;
+  background-color: #333333;
 }
+
+/* styling the arrow */
+.arrow {
+	text-align: center;
+	margin-top: 70px;
+  margin-bottom: 50px;
+  color:white;
+  }
+  .arrow a{
+	color: white;
+	text-decoration: none;
+  }
+  
+  .bounce {
+	-moz-animation: bounce 2s infinite;
+	-webkit-animation: bounce 2s infinite;
+	animation: bounce 2s infinite;
+	
+  }
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+    }
+    .container{
+      position: relative;
+      text-align: center;
+      }
+      .container2{
+      position: relative;
+      text-align: center;
+      padding-top: 50px;
+      margin-top: 40px;
+      margin-bottom: 50px;
+      color:black;
+      margin-top: 140px;
+      
+      }
+      /* syling the container 4 */
+      .container4{
+        background-color: #333333;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 40px;
+          margin-bottom: 50px;
+        
+      }
+      /* example */
+  
+.snip1577 {
+	font-family: 'Montserrat', Arial, sans-serif;
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	margin: 10px;
+	min-width: 230px;
+	max-width: 315px;
+	width: 100%;
+	color: #fff;
+	text-align: left;
+	font-size: 16px;
+	background: #000;
+  }
+  
+  .snip1577 *,
+  .snip1577:before,
+  .snip1577:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+  }
+  
+  .snip1577 img {
+	max-width: 100%;
+	backface-visibility: hidden;
+	vertical-align: top;
+  }
+  
+  .snip1577:before,
+  .snip1577:after {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	content: '';
+	background-color: #fff;
+	z-index: 1;
+	opacity: 0;
+  }
+  
+  .snip1577:before {
+	width: 0;
+	height: 1px;
+  }
+  
+  .snip1577:after {
+	height: 0;
+	width: 1px;
+  }
+  
+  .snip1577 figcaption {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 15px 20px;
+  }
+  
+  .snip1577 h3,
+  .snip1577 h4 {
+	margin: 0;
+	font-size: 1.1em;
+	font-weight: normal;
+	opacity: 0;
+  }
+  
+  .snip1577 h4 {
+	font-size: .8em;
+	text-transform: uppercase;
+  }
+  
+  .snip1577 a {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+  }
+  
+  .snip1577:hover img,
+  .snip1577.hover img {
+	zoom: 1;
+	filter: alpha(opacity=20);
+	-webkit-opacity: 0.2;
+	opacity: 0.2;
+  }
+  
+  .snip1577:hover:before,
+  .snip1577.hover:before,
+  .snip1577:hover:after,
+  .snip1577.hover:after {
+	opacity: 1;
+	-webkit-transition-delay: 0.25s;
+	transition-delay: 0.25s;
+  }
+  
+  .snip1577:hover:before,
+  .snip1577.hover:before {
+	width: 40px;
+  }
+  
+  .snip1577:hover:after,
+  .snip1577.hover:after {
+	height: 40px;
+  }
+  
+  .snip1577:hover h3,
+  .snip1577.hover h3,
+  .snip1577:hover h4,
+  .snip1577.hover h4 {
+	opacity: 1;
+  }
+  
+  .snip1577:hover h3,
+  .snip1577.hover h3 {
+	-webkit-transition-delay: 0.3s;
+	transition-delay: 0.3s;
+  }
+  
+  .snip1577:hover h4,
+  .snip1577.hover h4 {
+	-webkit-transition-delay: 0.35s;
+	transition-delay: 0.35s;
+  }
+  
+  /* footer styling */
+  .footer{
+    background-color: aqua;
+  }
+.row{
+	color: white;
+	margin-top: 30px;
+}
+.pic-block{
+	width: 90px;
+	height: 90px;
+	background-color: white;
+	margin: 10px;
+	border: 5px solid black;
+
+}
+.bottom{
+	text-align: center;
+}
+
+/* styling for best street wears section */
+.container4 ul{
+	list-style: none;
+}
+.phrase{
+	padding-top:50px;
+}
+#img4{
+	width:600px;
+}
+.container4{
+	background-color: #333333;
+	color: #ffffff;
+	text-align: center;
+	margin-top: 40px;
+    margin-bottom: 50px;
+	
+}
+/* styling the arrow */
+.arro {
+	text-align: center;
+	margin-top: 70px;
+  margin-bottom: 50px;
+  color: #000;
+  }
+  .arro a{
+	color: #000;
+	text-decoration: none;
+  }
+  
+  
+    .container{
+      position: relative;
+      text-align: center;
+      }
+      .container2{
+      position: relative;
+      text-align: center;
+      padding-top: 50px;
+      margin-top: 40px;
+      margin-bottom: 50px;
+      color:black;
+      margin-top: 140px;
+      }
+    
+
+      /* media query */
+       /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  
+};
+
+ /* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px){
+
+}
+
+ /* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px){
+
+};
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px){
+
+};
+
+ /* Extra large devices (large desktops) */
+/* No media query since the extra-large breakpoint has no upper bound on its width */
+  
