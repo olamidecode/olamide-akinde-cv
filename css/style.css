@@ -15,6 +15,14 @@
   border: 0;
   text-align: center;
 }
+/* footer styling */
+.ending{
+  color: black;
+  box-shadow: 0px 2px 15px #252525;
+  border: 0;
+  background-color: #E5E5E5;
+  margin: 10px 10px;
+ }
 /*Skills section styling below*/
 
 #skills_section{
@@ -383,44 +391,7 @@ body {
 	transition-delay: 0.35s;
   }
   
-  /* footer styling */
-  .footer{
-    background-color: aqua;
-  }
-.row{
-	color: white;
-	margin-top: 30px;
-}
-.pic-block{
-	width: 90px;
-	height: 90px;
-	background-color: white;
-	margin: 10px;
-	border: 5px solid black;
-
-}
-.bottom{
-	text-align: center;
-}
-
-/* styling for best street wears section */
-.container4 ul{
-	list-style: none;
-}
-.phrase{
-	padding-top:50px;
-}
-#img4{
-	width:600px;
-}
-.container4{
-	background-color: #333333;
-	color: #ffffff;
-	text-align: center;
-	margin-top: 40px;
-    margin-bottom: 50px;
-	
-}
+  
 /* styling the arrow */
 .arro {
 	text-align: center;
