@@ -15,6 +15,44 @@
   border: 0;
   text-align: center;
 }
+/*Skills section styling below*/
+
+#skills_section{
+  height: 300px;
+  background-color: white;
+  color: black;
+  padding-left: 10%;
+  padding-right: 10%;
+  line-height: 30px;
+  padding-top: 30px;
+  text-align: center;
+  margin-left: 10em;
+  margin-right: 10em;
+  position: relative;
+  margin-top: 30px;
+  box-shadow: 0px 2px 15px #252525;
+  border: 0;
+}
+
+#skills_section h3{
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin: 0;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+#skills_section img{
+  margin-top: 90px;
+  margin-left: 10%;
+  transition: all 1s ease-in-out;
+}
+
+#skills_section img:hover{
+  width: 70px;
+  height: 70px;
+  transform: rotate(360deg);
+}
+
 /* introduction section */
 .top-bar{
   
