@@ -28,6 +28,12 @@
     text-align: center;
     margin-right: 280px;
   }
+  /* card button color  */
+  .btn-primary {
+    color: #fff;
+    background-color: #005E7C;
+    border-color: #007bff;
+}
   /* introduction section */
   .top-bar{
     
@@ -46,6 +52,15 @@
       box-shadow: 0px 2px 15px #252525;
       border: 0;
       }
+      .bg-light {
+        background-color: #005E7C!important;
+        box-shadow: 0px 2px 15px #252525;
+        border: 0;
+        margin-top: 6px;
+        border-radius: 4px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
     /* put my .top-bar into a section so i could add a background image to it */
   #header{
         background-image: url(../img/headimg.jpg)  ;
@@ -65,13 +80,15 @@
 
       }
    /* footer styling */
-  .ending{
-    color: black;
-    box-shadow: 0px 2px 15px #252525;
-    border: 0;
-    background-color: #E5E5E5;
-    margin: 10px 10px;
-   }
+.ending{
+  background-color: #005E7C;
+  box-shadow: 0px 2px 15px #252525;
+  border: 0;
+  margin-bottom: 6px;
+  border-radius: 4px;
+  margin-left: 6px;
+  margin-right: 6px;
+ }
     
   /* styling the image */
   .fading{
